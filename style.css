@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC;
+    color: #333;
+  }
+  
+  header {
+    background-color: #B84513;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .proverb-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .proverb-card {
+    background: #FFF;
+    border: 1px solid #DAA520;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .proverb-card:hover {
+    transform: scale(1.05);
+    background-color: #FFF8DC;
+  }
